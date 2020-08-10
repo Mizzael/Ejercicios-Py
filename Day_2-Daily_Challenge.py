@@ -48,7 +48,7 @@ print(s, '\n')
 x = 50//11
 
 print('Challenge_3')
-print(x)
+print(x, '\n')
 
 # What is the output of this code?
 # My_Answer=4
@@ -73,10 +73,6 @@ print(x)
 seq = [30, 9, 40, 50, 91, 142, 234]
 
 print('Challenge_4')
-
-
-def sequence(seq[l]):
-
 
 seq[i] = seq[i-2] + seq[i-1] + 1
 # What's the next element in the list?
