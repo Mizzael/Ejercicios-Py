@@ -4,4 +4,10 @@
 
 # My Code
 def square_digits(num):
-    return
+    my_num = str(num)
+    for i in my_num:
+        i**2
+    return i
+
+
+square_digits(34)
