@@ -55,3 +55,20 @@ print(x)
 
 # Checks
 # Answer=4
+
+# Explanation
+# When I started to learn Python 3, I used to be confused about the semantics of dividing two integers. Is the result a float or an integer value? The reason for my confusion was a nasty Java bug that I once found in my code. The code was supposed to perform a simple division of two integers and return a float parameter value between zero and one. But Java uses integer division, i.e., it skips the remainder. Thus, the value was always either zero or one, but took never a value in-between. It took me days to figure that out.
+
+# Save yourself the debugging time by memorizing the following rule once and for all.
+
+# The // operator performs integer (floor) division and the / operator performs float (true) division. An example for floor division is 50 // 11 = 4. An example for true division is 50 / 11 = 4.545454545454546.
+
+# Note that floor division always rounds ''down'', i.e., 3 // 2 == 1 and -3 // 2 == -2.
+
+# Although the puzzle seems simple, more than twenty percent of the Finxter users cannot solve it.
+
+
+# Challenge_4
+
+
+print('Challenge_3')
