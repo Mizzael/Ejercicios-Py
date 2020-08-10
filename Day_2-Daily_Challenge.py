@@ -9,6 +9,7 @@ squares = [1, 4, 9, 16, 25]
 # My_Answer=9
 
 # Checks
+print('Challenge_1')
 print(squares[-3:], '\n')
 
 # Explanation
@@ -24,6 +25,8 @@ def srange(x):
 s = 0
 for i in srange(2):
     s += i
+
+print('Challenge_2')
 print(s, '\n')
 
 # What is the output of this code?
@@ -41,3 +44,8 @@ print(s, '\n')
 
 
 # Challenge_3
+
+x = 50//11
+
+print('Challenge_3')
+print(x)
