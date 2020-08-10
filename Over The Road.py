@@ -23,3 +23,6 @@ def over_the_road(address, n):
                 print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
                 total_house = total_house-1
                 address = address+1
+
+
+over_the_road(3, 3)
