@@ -25,4 +25,22 @@ def over_the_road(address, n):
                 address = address+1
 
 
+# Test 1
+over_the_road(1, 3)
+# Neighbour = 6
+
+# Test 2
+over_the_road(2, 3)
+# Neighbour = 5
+
+# Test 3
 over_the_road(3, 3)
+# Neighbour = 4
+
+# Test 4
+over_the_road(3, 5)
+# Neighbour = 8
+
+# Test 5
+over_the_road(7, 11)
+# Neighbour = 16
