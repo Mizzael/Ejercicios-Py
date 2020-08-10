@@ -12,14 +12,15 @@ def over_the_road(address, n):
     address = 1
     total_house = n*2
     if n == 3:
-        if address % 2 == 0:
-            print(str(total_house)+'|', '|'+str(address)+'\n', sep='\t')
-            total_house = total_house-1
-            address = address+1
-        else:
-            print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
-            total_house = total_house-1
-            address = address+1
+        while n < total_house:
+            if address % 2 == 0:
+                print(str(total_house)+'|', '|'+str(address)+'\n', sep='\t')
+                total_house = total_house-1
+                address = address+1
+            else:
+                print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
+                total_house = total_house-1
+                address = address+1
     else:
         while n < total_house:
             if address % 2 == 0:
