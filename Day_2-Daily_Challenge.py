@@ -49,3 +49,9 @@ x = 50//11
 
 print('Challenge_3')
 print(x)
+
+# What is the output of this code?
+# My_Answer=4
+
+# Checks
+# Answer=4
