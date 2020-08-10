@@ -8,29 +8,29 @@
 # Given your house number address and length of street n, give the house number on the opposite side of the street.
 
 # My_Code
-def over_the_road(address, n):
-    address = 1
-    total_house = n*2
-    if n == 3:
-        while n < total_house:
-            if address % 2 == 0:
-                print(str(total_house)+'|', '|'+str(address)+'\n', sep='\t')
-                total_house = total_house-1
-                address = address+1
-            else:
-                print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
-                total_house = total_house-1
-                address = address+1
-    else:
-        while n < total_house:
-            if address % 2 == 0:
-                print(str(total_house)+'|', '|'+str(address)+'\n', sep='\t')
-                total_house = total_house-1
-                address = address+1
-            else:
-                print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
-                total_house = total_house-1
-                address = address+1
+# def over_the_road(address, n):
+#     address = 1
+#     total_house = n*2
+#     if n == 3:
+#         while n < total_house:
+#             if address % 2 == 0:
+#                 print(str(total_house)+'|', '|'+str(address)+'\n', sep='\t')
+#                 total_house = total_house-1
+#                 address = address+1
+#             else:
+#                 print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
+#                 total_house = total_house-1
+#                 address = address+1
+#     else:
+#         while n < total_house:
+#             if address % 2 == 0:
+#                 print(str(total_house)+'|', '|'+str(address)+'\n', sep='\t')
+#                 total_house = total_house-1
+#                 address = address+1
+#             else:
+#                 print(str(address)+'|', '|'+str(total_house)+'\n', sep='\t')
+#                 total_house = total_house-1
+#                 address = address+1
 
 
 # Test 1
@@ -46,7 +46,7 @@ def over_the_road(address, n):
 # Neighbour = 4
 
 # Test 4
-over_the_road(3, 5)
+# over_the_road(3, 5)
 # Neighbour = 8
 
 # Test 5
@@ -57,3 +57,6 @@ over_the_road(3, 5)
 # Solution
 def over_the_road(address, n):
     return (2*n + 1 - address)
+
+
+print(over_the_road(3, 5))
