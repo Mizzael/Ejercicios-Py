@@ -69,11 +69,23 @@ print(x, '\n')
 
 
 # Challenge_4
+
 # SequencePuzzle
 seq = [30, 9, 40, 50, 91, 142, 234]
 
-print('Challenge_4')
+print('Challenge_4\n')
 
 seq[i] = seq[i-2] + seq[i-1] + 1
 # What's the next element in the list?
 # My_Answer=377
+
+# Challenge_5
+prefix = 'Fi'
+print('Challenge_5')
+print(prefix+'nxter')
+
+#  What is the output of this code?
+# My_Answer=Finxter
+
+# Checks
+# Answer=Finxter
