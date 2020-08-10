@@ -6,7 +6,7 @@ squares = [1, 4, 9, 16, 25]
 
 # My_Solution
 # What is the output of this code?
-# Answer=9
+# My_Answer=9
 # Checks
 print(squares[-3:])
 
@@ -24,3 +24,8 @@ s = 0
 for i in srange(2):
     s += i
 print(s)
+
+# What is the output of this code?
+# My_Answer=[1,2,3,4]
+
+# Checks
