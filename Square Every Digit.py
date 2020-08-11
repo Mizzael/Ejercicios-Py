@@ -6,9 +6,9 @@
 def square_digits(num):
     words = list(str(num))
     for word in words:
-        print(int(word)**2, end="")
+        print(int(word)**2, end=" ")
 
 
-square_digits(9119)
+square_digits(12345)
 
 # (list(map(int, str(num))))
