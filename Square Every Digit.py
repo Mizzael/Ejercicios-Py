@@ -4,11 +4,12 @@
 
 # My Code
 def square_digits(num):
-    words = list(str(num))
-    for word in words:
-        print(int(word)**2, end=" ")
+    square = ''
+    for temp in str(num):
+        square += str(int(temp))*int(temp)
+    return int(square)
 
 
-square_digits(12345)
+print(square_digits(9119))
 
 # (list(map(int, str(num))))
