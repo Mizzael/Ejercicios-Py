@@ -4,7 +4,12 @@
 
 # My Code
 def square_digits(num):
-    return list(map(int, str(num)))
+    temp = num
+    while temp > 0:
+        new_temp = temp % 10
+        temp = temp/10
+        print(new_temp)
+    # return list(map(int, str(num)))
 
 
-print(square_digits(34))
+square_digits(9119)
