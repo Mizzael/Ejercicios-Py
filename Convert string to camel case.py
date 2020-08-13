@@ -26,7 +26,7 @@ def to_cc(text):
         print("En el índice {} tenemos a '{}'".format(index, caracter))
 
 
-print(to_cc('Hola_Mundo'))
+to_cc('hola_mundo')
 
 
 # https://parzibyte.me/blog/2018/12/31/leer-cadena-caracter-por-caracter-python-3/
