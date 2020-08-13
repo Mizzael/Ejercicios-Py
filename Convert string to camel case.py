@@ -9,12 +9,12 @@ def to_camel_case(text):
     if text == '' or text == ' ':
         pass
     else:
-        for index in range(len(text)):
-            if text[index] == '_':
-                char = text[index+1]
-                char.Upper()
-                text.replace(index+1, char)
+        # for index in range(len(text)):
+        # if text[index] == '_':
+        #     char = text[index+1]
+        #     char.Upper()
+        #     text.replace(index+1, char)
         return text
 
 
-print(to_camel_case(hola_mundo))
+print(to_camel_case('hola_mundo'))
