@@ -22,10 +22,11 @@
 
 def to_cc(text):
     for index in range(len(text)):
-        return index += index
+        caracter = text[index]
+        print("En el índice {} tenemos a '{}'".format(index, caracter))
 
 
-print(to_cc('Hola Mundo'))
+print(to_cc('Hola_Mundo'))
 
 
 # https://parzibyte.me/blog/2018/12/31/leer-cadena-caracter-por-caracter-python-3/
