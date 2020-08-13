@@ -6,7 +6,7 @@
 # to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
 
 def to_camel_case(text):
-    if text == '' OR text == ' ':
+    if text == '' or text == ' ':
         pass
     else:
         for index in range(len(text)):
