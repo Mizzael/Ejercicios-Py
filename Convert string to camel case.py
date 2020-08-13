@@ -18,3 +18,7 @@ def to_camel_case(text):
 
 
 print(to_camel_case('hola_mundo'))
+
+
+def to_cc(text):
+    for inde
