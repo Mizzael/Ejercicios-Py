@@ -22,7 +22,12 @@
 
 def to_cc(text):
     for index in range(len(text)):
-        return index
+        return index += index
 
 
 print(to_cc('Hola Mundo'))
+
+
+# https://parzibyte.me/blog/2018/12/31/leer-cadena-caracter-por-caracter-python-3/
+
+# https://www.genbeta.com/desarrollo/manejo-de-ramas-de-desarrollo-con-git
