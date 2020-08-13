@@ -6,5 +6,14 @@
 # to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
 
 def to_camel_case(text):
-    if text = '':
+    if text = ' ':
         return False
+    else:
+        for i in text:
+            if text == '_':
+                text.remove('_')
+                text.Upper()
+        return text
+
+
+print(to_camel_case('hola_mundo'))
