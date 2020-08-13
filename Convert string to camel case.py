@@ -4,3 +4,7 @@
 # to_camel_case("the-stealth-warrior") # returns "theStealthWarrior"
 
 # to_camel_case("The_Stealth_Warrior") # returns "TheStealthWarrior"
+
+def to_camel_case(text):
+    if text = '':
+        return False
